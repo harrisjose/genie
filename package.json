@@ -1,0 +1,30 @@
+{
+  "name": "genie",
+  "version": "0.0.1",
+  "description": "Static site generator. WIP",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "static-site",
+    "markdown",
+    "blog"
+  ],
+  "author": "Harris Jose",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "deepmerge": "^2.0.0",
+    "frontmatter": "^0.0.3",
+    "glob": "^7.1.2",
+    "gray-matter": "^3.0.8",
+    "handlebars": "^4.0.10",
+    "markdown-it": "^8.4.0",
+    "mkdirp": "^0.5.1",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2"
+  }
+}
