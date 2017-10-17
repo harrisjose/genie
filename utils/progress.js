@@ -20,6 +20,7 @@ const progress = function () {
     this.currentTaskCount++
     this.isTaskRunning = true
   }
+
   this.done = () => {
     if (this.isTaskRunning) {
       let symbol = muted(`[${this.currentTaskCount}/${this.taskCount}]`)

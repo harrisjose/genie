@@ -1,10 +1,10 @@
 # Genie
 
-Custom built static site generator currently in use at [harrisjose.github.io](harrisjose.github.io)
+Custom built static site generator currently in use at [harrisjose.github.io](https://harrisjose.github.io)
 
 - Written for Node v8.7+
 - Uses handlebars for templating and markdown for content
-- Latest ES Version support through babel and minification with babli
+- Latest ES version support through babel and minification with babli
 - Autoprefixer and other css transforms using PostCSS
 
 ### Why?

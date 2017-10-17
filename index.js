@@ -18,6 +18,7 @@ const defaults = {
     templates: 'templates',
     partials: 'partials',
     helpers: 'helpers',
+    assets: 'assets',
     output: 'site'
   },
   js: {},
