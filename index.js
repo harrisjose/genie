@@ -21,8 +21,13 @@ const defaults = {
     assets: 'assets',
     output: 'site'
   },
-  js: {},
-  css: {}
+  js: {
+    inline: false,
+    transpile: false
+  },
+  css: {
+    inline: false
+  }
 }
 
 const currentDir = path.resolve(process.cwd())
