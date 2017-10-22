@@ -23,10 +23,21 @@ const defaults = {
   },
   js: {
     inline: false,
-    transpile: false
+    babelOptions: {}
   },
   css: {
-    inline: false
+    inline: false,
+    postcssOptions: {
+      'postcss-cssnext': {
+        browsers: [
+          '> 1%',
+          'last 2 versions'
+        ]
+      },
+      'postcss-csso': {
+        preset: 'default'
+      }
+    }
   }
 }
 
