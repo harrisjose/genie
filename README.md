@@ -46,16 +46,10 @@ Configuration from a `genie.js` file in your projects root folder is used if it 
   data: {
     prop: 'Gobal data props',
   },
-  js: {
-    inline: false,
-    babelOptions: {}
+  postcss: {
+    'postcss-plugin': { plugin-options }
   },
-  css: {
-    inline: false,
-    postcssOptions: {
-      'postcss-plugin': { options }
-    }
-  }
+  babel: { config }
 }
 ```
 
@@ -65,5 +59,8 @@ Configuration from a `genie.js` file in your projects root folder is used if it 
 Because, [this.](https://github.com/jlord/balrog)
 
 #### TODO
-- Support for inlining source files
-- Allow using a different config file for production builds.
+Support for inlining source files   
+Allow using a different config file for production builds.
+
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)

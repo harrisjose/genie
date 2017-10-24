@@ -21,23 +21,25 @@ const defaults = {
     assets: 'assets',
     output: 'site'
   },
-  js: {
-    inline: false,
-    babelOptions: {}
-  },
-  css: {
-    inline: false,
-    postcssOptions: {
-      'postcss-cssnext': {
-        browsers: [
-          '> 1%',
-          'last 2 versions'
-        ]
-      },
-      'postcss-csso': {
-        preset: 'default'
-      }
+  postcss: {
+    'postcss-cssnext': {
+      browsers: [
+        '> 1%',
+        'last 2 versions'
+      ]
+    },
+    'postcss-csso': {
+      preset: 'default'
     }
+  },
+  babel: {
+    'presets': [
+      ['env', {
+        'targets': {
+          'browsers': ['last 2 versions', 'safari >= 7']
+        }
+      }]
+    ]
   }
 }
 

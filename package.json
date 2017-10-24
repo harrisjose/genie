@@ -1,5 +1,5 @@
 {
-  "name": "genie",
+  "name": "genie-cli",
   "version": "0.0.1",
   "description": "Static site generator. WIP",
   "main": "index.js",
@@ -15,6 +15,8 @@
   "author": "Harris Jose",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chalk": "^2.1.0",
     "commander": "^2.11.0",
     "deepmerge": "^2.0.0",

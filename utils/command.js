@@ -5,7 +5,7 @@ const Command = function Command (args) {
 
 Command.prototype.match = function (name, callback) {
   if (name === this.command) {
-    callback(...this.options)
+    callback(...this.options) // eslint-disable-line
   }
   return this
 }
