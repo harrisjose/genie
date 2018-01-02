@@ -1,5 +1,3 @@
-<a target='_blank' rel='nofollow noopener' href='https://app.codesponsor.io/link/T5F1SFV1gZFb51jKqxPnDwsg/harrisjose/genie'><img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/T5F1SFV1gZFb51jKqxPnDwsg/harrisjose/genie.svg' /></a>
-
 # Genie
 
 Custom built static site generator currently in use at [harrisjose.github.io](https://harrisjose.github.io)
